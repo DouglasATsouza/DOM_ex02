@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação do DOM</title>
+</head>
+<body>
+    <div id="primeiro">
+        <button onclick="addConteudo()">Clique aqui para: "Olá Mundo!"</button><br><br>
+        <span id="inserirTexto"></span>
+    </div>
+    <div id="segundo">
+        <button onclick="addImagem()">Clique aqui para: Adicionar uma imagem!</button><br><br>
+        <span id="inserirImagem"></span>
+    </div>
+    <div id="teceiro">
+        <button onclick="addParagrafo()">Clique aqui para MUDAR o texto abaixo!</button>
+        <p id="inserirParagrafo"><i>Aqui vai aparecer alguma coisa...</i></p>
+    </div>
+    <div>
+        <h2><u>Contador de Cliques</u></h2>
+        <button id="addContador">Incrementar</button>
+        <button id="zerarContador">Zerar Contador</button>
+        <h3 id="contador">O contador está com: 0 Clique(s).</h3>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
